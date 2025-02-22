@@ -1,9 +1,98 @@
 body {
-    background-color: rgb(168, 230, 255);
-    margin: 20px 40px 20px 40px;
+    background-color: rgb(170, 219, 252);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-div {
-    background-color: white;
-    width: 400px;
-    height: 300px;
+.content { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 249, 254);
+    padding: 1% 5% 1% 5%;
+    width: 85%;
+    height: 92vh;
+    border-radius: 50px;
+}
+
+.logo img{
+    height: 90px;
+}
+.error_image img{
+    height: 600px;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+}
+nav .redirect {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center; 
+}
+main .message {
+    flex: 1;
+    padding-left: 10%;
+    margin-top: -10%;
+}
+main .error_image {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+.back a, .contact a {
+    color: rgb(240, 249, 254);
+}
+
+.message {
+    max-width: 360px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.message h1 {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.message p {
+    padding-bottom: 10px;
+}
+
+button {
+    height: 50px;
+    padding: 15px 30px;
+    background-color: rgb(240, 249, 254);
+    border: none;
+    font-size: 16px;
+}
+.bubble {
+    border: 1px solid rgb(240, 249, 254);
+    border-radius: 16px 16px 0px 16px;
+}
+.back {
+    background-color: rgb(130, 83, 246);
+}
+.contact {
+    background-color: rgb(59, 29, 153);
+    margin-left: 20px;
 }
